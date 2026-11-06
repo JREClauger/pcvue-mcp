@@ -1,0 +1,19 @@
+{
+  "endpoint": "opc.tcp://localhost:4840",
+  "security": null,
+  "username": null,
+  "password": null,
+  "timeout_s": 10,
+
+  "namespace_uri": null,
+  "namespace_index": 2,
+  "node_id_template": "ns={ns};s={name}",
+  "browse_root": null,
+  "max_browse_nodes": 5000,
+
+  "ecriture_active": false,
+  "variables_ecriture": {
+    "Test.Consigne": { "min": 0, "max": 100 }
+  },
+  "journal_ecriture": "journal_ecritures.jsonl"
+}

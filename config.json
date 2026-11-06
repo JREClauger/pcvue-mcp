@@ -1,0 +1,12 @@
+{
+  "progid": "SV.OPCDAServer",
+  "process_image": "sv32.exe",
+  "taille_lot": 1000,
+  "cache_minutes": 10,
+
+  "ecriture_active": false,
+  "variables_ecriture": {
+    "Exemple.Consigne": { "min": 0, "max": 100 }
+  },
+  "journal_ecriture": "journal_ecritures.jsonl"
+}
